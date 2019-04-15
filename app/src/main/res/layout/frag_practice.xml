@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.dangcong.toeicpratice.MainActivity">
+    <!--android:fitsSystemWindows="true"-->
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="16dp">
+
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarAlwaysDrawHorizontalTrack="true">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-40dp">
+
+                <FrameLayout
+                    android:id="@+id/frameLayout13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="74dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/frameLayout14"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/frameLayout14"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageButton
+                        android:id="@+id/setting"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="20dp"
+                        android:background="@null"
+                        android:contentDescription="@string/part8"
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher_round" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="16dp"
+                        android:clickable="false"
+                        android:text="@string/part8"
+                        android:textAlignment="center" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="59dp"
+                    app:layout_constraintStart_toStartOf="@+id/frameLayout20"
+                    app:layout_constraintTop_toBottomOf="@+id/frameLayout20"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageButton
+                        android:id="@+id/part_7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="20dp"
+                        android:background="@null"
+                        android:contentDescription="@string/part7"
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher_round" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="16dp"
+                        android:clickable="false"
+                        android:text="@string/part7"
+                        android:textAlignment="center" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="59dp"
+                    app:layout_constraintBottom_toTopOf="@+id/frameLayout13"
+                    app:layout_constraintEnd_toEndOf="@+id/frameLayout13"
+                    app:layout_constraintStart_toStartOf="@+id/frameLayout13"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageButton
+                        android:id="@+id/part_6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="20dp"
+                        android:background="@null"
+                        android:contentDescription="@string/part6"
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher_round" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="16dp"
+                        android:clickable="false"
+                        android:text="@string/part6"
+                        android:textAlignment="center" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="52dp"
+                    app:layout_constraintStart_toStartOf="@+id/frameLayout18"
+                    app:layout_constraintTop_toBottomOf="@+id/frameLayout18"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageButton
+                        android:id="@+id/part_4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="20dp"
+                        android:background="@null"
+                        android:contentDescription="@string/part4"
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher_round" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="16dp"
+                        android:clickable="false"
+                        android:text="@string/part4"
+                        android:textAlignment="center" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="52dp"
+                    app:layout_constraintStart_toStartOf="@+id/frameLayout19"
+                    app:layout_constraintTop_toBottomOf="@+id/frameLayout19"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageButton
+                        android:id="@+id/part_3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="20dp"
+                        android:background="@null"
+                        android:contentDescription="@string/part3"
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher_round" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="16dp"
+                        android:clickable="false"
+                        android:text="@string/part3"
+                        android:textAlignment="center" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/frameLayout19"
+                    app:layout_constraintEnd_toEndOf="@+id/frameLayout15"
+                    app:layout_constraintStart_toStartOf="@+id/frameLayout15"
+                    app:layout_constraintTop_toTopOf="@+id/frameLayout19"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageButton
+                        android:id="@+id/part_2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="20dp"
+                        android:background="@null"
+                        android:contentDescription="@string/part2"
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher_round" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="16dp"
+                        android:clickable="false"
+                        android:text="@string/part2"
+                        android:textAlignment="center" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="111dp"
+                    app:layout_constraintEnd_toEndOf="@+id/frameLayout20"
+                    app:layout_constraintStart_toStartOf="@+id/frameLayout20"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageButton
+                        android:id="@+id/part_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:background="@null"
+                        android:contentDescription="@string/part1"
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher_round" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="16dp"
+                        android:clickable="false"
+                        android:text="@string/part1"
+                        android:textAlignment="center" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="84dp"
+                    android:layout_marginTop="67dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/frameLayout17"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageButton
+                        android:id="@+id/part_5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="20dp"
+                        android:background="@null"
+                        android:contentDescription="@string/part5"
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher_round" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="16dp"
+                        android:clickable="false"
+                        android:text="@string/part5"
+                        android:textAlignment="center" />
+                </FrameLayout>
+
+            </android.support.constraint.ConstraintLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

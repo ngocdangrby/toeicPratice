@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/question_info_margin" n1:layout_marginTop="@dimen/question_info_margin" n1:layout_marginRight="@dimen/question_info_margin"
+    xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:id="@id/bg_text" n1:background="@drawable/question_title_drawable" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/question_info_margin" n1:layout_marginRight="@dimen/question_info_margin">
+        <TextView n1:textSize="@dimen/text_size_answer" n1:textColor="@color/black" n1:id="@id/content_text_no_answer" n1:paddingLeft="@dimen/question_info_padding_left" n1:paddingTop="@dimen/question_info_margin" n1:paddingRight="@dimen/question_info_padding_right" n1:paddingBottom="@dimen/question_info_margin" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="What are you doing?" />
+    </LinearLayout>
+    <RadioGroup n1:id="@id/radio_group" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/radio_margin_left" n1:layout_marginRight="@dimen/radio_margin_right" n1:layout_below="@id/bg_text">
+        <RadioButton n1:textSize="@dimen/text_size_answer" n1:id="@id/radio_A" n1:paddingTop="@dimen/radio_padding_top_bottom" n1:paddingRight="@dimen/radio_padding_right" n1:paddingBottom="@dimen/radio_padding_top_bottom" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/radio_margin_top" n1:text="A" />
+        <RadioButton n1:textSize="@dimen/text_size_answer" n1:id="@id/radio_B" n1:paddingTop="@dimen/radio_padding_top_bottom" n1:paddingRight="@dimen/radio_padding_right" n1:paddingBottom="@dimen/radio_padding_top_bottom" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/radio_margin_top" n1:text="B" />
+        <RadioButton n1:textSize="@dimen/text_size_answer" n1:id="@id/radio_C" n1:paddingTop="@dimen/radio_padding_top_bottom" n1:paddingRight="@dimen/radio_padding_right" n1:paddingBottom="@dimen/radio_padding_top_bottom" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/radio_margin_top" n1:text="C" />
+        <RadioButton n1:textSize="@dimen/text_size_answer" n1:id="@id/radio_D" n1:paddingTop="@dimen/radio_padding_top_bottom" n1:paddingRight="@dimen/radio_padding_right" n1:paddingBottom="@dimen/radio_padding_top_bottom" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/radio_margin_top" n1:text="D" />
+    </RadioGroup>
+</RelativeLayout>
